@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:XamarinQCM.Views" 
+             x:Class="XamarinQCM.Views.XamarinQCMPage"
+             BackgroundColor="#4897D8">
+    <StackLayout HorizontalOptions="Center" 
+                 VerticalOptions="Center">
+        <Frame>
+            <Label HorizontalOptions="Center">Yolo</Label>
+        </Frame>
+        <Button 
+            Text="Click me"
+            TextColor="Black"
+            HorizontalOptions="CenterAndExpand" 
+            BackgroundColor="#FFDB5C"
+            WidthRequest="90"/>
+    </StackLayout>
+</ContentPage>

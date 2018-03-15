@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace XamarinQCM
+namespace XamarinQCM.Views
 {
     public partial class XamarinQCMPage : ContentPage
     {

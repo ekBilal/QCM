@@ -1,5 +1,7 @@
 ﻿using Xamarin.Forms;
 
+using XamarinQCM.Views;
+                
 namespace XamarinQCM
 {
     public partial class App : Application
