@@ -10,7 +10,7 @@ namespace XamarinQCM
         {
             InitializeComponent();
 
-            MainPage = new XamarinQCMPage();
+            MainPage = new QuickView();
         }
 
         protected override void OnStart()

@@ -8,5 +8,10 @@ namespace XamarinQCM.Views
         {
             InitializeComponent();
         }
+
+        void Handle_Clicked(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }

@@ -11,6 +11,7 @@
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\XamarinQCMPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\QuickView.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
@@ -19,6 +20,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\XamarinQCMPage.xaml.cs">
       <DependentUpon>XamarinQCMPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\QuickView.cs">
+      <DependentUpon>QuickView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\QuickVM.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Views\" />
